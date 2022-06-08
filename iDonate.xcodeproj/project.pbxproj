@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1B849F28512A9900803B93 /* review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B849E28512A9900803B93 /* review.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* ContentView.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1B849E28512A9900803B93 /* review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = review.swift; sourceTree = "<group>"; };
 		7A6E40982851203000BEBB1C /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6E409B2851203000BEBB1C /* iDonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateApp.swift; sourceTree = "<group>"; };
 		7A6E409D2851203000BEBB1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				7A6E409D2851203000BEBB1C /* ContentView.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
+				7A1B849E28512A9900803B93 /* review.swift */,
 			);
 			path = iDonate;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
+				7A1B849F28512A9900803B93 /* review.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
