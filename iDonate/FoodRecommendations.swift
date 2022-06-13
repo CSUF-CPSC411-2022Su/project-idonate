@@ -17,7 +17,7 @@ struct FoodRecommendationsFilter: View {
             TextField("Enter Food Ingredients", text: $text)
                 .padding(15)
                 .padding(.horizontal, 25)
-                .background(Color(.systemGray6))
+                .background(Color(.systemGray5))
                 .foregroundColor(.white)
                 .cornerRadius(10)
                 .overlay {
