@@ -6,7 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct FoodList {
-    // add code
+    
 }

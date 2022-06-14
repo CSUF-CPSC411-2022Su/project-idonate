@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var item: String = ""
+    @State var list = [String]()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text("Input the food you want to donate")
+            TextField("Enter Food Here:",text: $item).padding()
+            Spacer().overlay{
+            }
+            VStack{
+                Text("Location You Can Donate")
+                Button(action: {
+                }){
+                    Text("Location 1").padding()
+                }
+                Spacer()
+                
+            }}
+        
     }
 }
 
