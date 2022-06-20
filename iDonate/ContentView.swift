@@ -6,20 +6,22 @@
 //
 
 import SwiftUI
-var foodView = inventory()
 struct ContentView: View {
     var body: some View {
-//        Text("Hello, world!")
-//            .padding()
-        List {
-            ForEach(foodView.food.sorted(by: <), id: \.key) { key, value in
-                        Section(header: Text(key)) {
-                            Text("\(value)")
-                        }
-                    }
+        NavigationView {
+            VStack {
+                HStack {
+                    Text("Where would you like to give or recieve a food donation?")
+                        .padding()
                 }
-  }
+                NavigationLink(destination: inventoryView()) {
+                        Text("Location 1")
+                }
+            }
+        }
+    }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

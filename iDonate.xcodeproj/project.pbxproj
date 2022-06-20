@@ -17,6 +17,7 @@
 		7A6E40C62851206A00BEBB1C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C52851206A00BEBB1C /* .gitignore */; };
 		7A6E40C82851209900BEBB1C /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C72851209900BEBB1C /* .gitattributes */; };
 		7AC8977D2851230200D4EE55 /* inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8977C2851230200D4EE55 /* inventory.swift */; };
+		7AC897C3286042CE00D4EE55 /* inventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C2286042CE00D4EE55 /* inventoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		7A6E40C52851206A00BEBB1C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A6E40C72851209900BEBB1C /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		7AC8977C2851230200D4EE55 /* inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventory.swift; sourceTree = "<group>"; };
+		7AC897C2286042CE00D4EE55 /* inventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				7A6E409B2851203000BEBB1C /* iDonateApp.swift */,
+				7AC8977C2851230200D4EE55 /* inventory.swift */,
 				7A6E409D2851203000BEBB1C /* ContentView.swift */,
+				7AC897C2286042CE00D4EE55 /* inventoryView.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
-				7AC8977C2851230200D4EE55 /* inventory.swift */,
 			);
 			path = iDonate;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				7AC8977D2851230200D4EE55 /* inventory.swift in Sources */,
 				7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
+				7AC897C3286042CE00D4EE55 /* inventoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
