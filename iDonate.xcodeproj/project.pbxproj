@@ -19,6 +19,7 @@
 		7A6E40CA285122A600BEBB1C /* FoodRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */; };
 		7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41012856C5A600BEBB1C /* FoodData.swift */; };
 		7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41052856E8A800BEBB1C /* Recipe.swift */; };
+		7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecommendations.swift; sourceTree = "<group>"; };
 		7A6E41012856C5A600BEBB1C /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 		7A6E41052856E8A800BEBB1C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */,
 				7A6E41012856C5A600BEBB1C /* FoodData.swift */,
 				7A6E41052856E8A800BEBB1C /* Recipe.swift */,
+				7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */,
 			);
 			path = iDonate;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
 				7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */,
 				7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */,
+				7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

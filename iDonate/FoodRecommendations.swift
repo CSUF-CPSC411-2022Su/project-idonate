@@ -49,6 +49,7 @@ struct FoodRecommendationsFilter: View {
                     self.editing = false
                     
                     UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                    self.text = ""
                 }) {
                     Text("Cancel")
                 }
