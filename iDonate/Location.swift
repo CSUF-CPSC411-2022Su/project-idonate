@@ -9,7 +9,7 @@ import SwiftUI
 
 var locations: [Data] = reviewList.list
 
-struct ContentView: View {
+struct Location: View {
     var body: some View {
         NavigationView{
             List(locations, id: \.id){data in
@@ -32,6 +32,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Location()
     }
 }
