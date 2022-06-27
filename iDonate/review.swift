@@ -9,12 +9,22 @@ import SwiftUI
 
 struct review: View {
     @State var review: String = ""
-    @State var manager = reviewManager()
+    @StateObject var manager = reviewManager()
+    @StateObject var finder = CrosswalkFinder()
+    @AppStorage("text") var feedback :String?
+    
     var locations: Data
     
     var body: some View {
         NavigationView{
             VStack{
+                Button(action: {
+                    finder.find(locations.location)
+                }) {
+                    Text("Directions")
+                }
+                Image(uiImage: finder.image)
+                Spacer()
                 Text(locations.location)
                     .font(.title2)
                     .fontWeight(.semibold)
@@ -28,35 +38,32 @@ struct review: View {
                     TextField("Write a review...", text: $review)
                         .frame(width: 250)
                     Button{
-                            manager.reviewText(review)
+                        manager.reviews.append(listOfReviews(feedback: review))
+                        if let text = feedback{
+                            feedback = text
+                        }
                     }label: {
                         Text("Save")
                             .frame(width: 50)
                     }
                 }
                 List{
-                    ForEach(manager.reviews.sorted(), id: \.self){
+                    ForEach(manager.reviews){
                         text in
                         HStack{
-                            Text(review)
+                            Text(text.feedback)
                         }
                     }
                 }
                 Spacer()
             }
             
-        }
+        }.environmentObject(manager)
         .navigationTitle("Reviews")
     }
 }
 
-/*struct listOfReviews: View {
-    @Binding var review: String
-    var body: some View {
-        
-    }
-    
-}*/
+
 
 struct review_Previews: PreviewProvider {
     static var previews: some View {
