@@ -29,10 +29,18 @@ struct reviewList{
     ]
 }
 
-struct reviewManager{
-    private(set) var reviews: [String] = []
-    mutating func reviewText(_ feedback: String){
-        reviews = feedback
+struct listOfReviews: Identifiable {
+    var id = UUID()
+    var feedback: String
+    
+}
+
+class reviewManager: ObservableObject {
+    @Published var reviews: [listOfReviews] = []
+    
+    init(){
+        
     }
+    
 }
 
