@@ -6,10 +6,10 @@
 //
 
 import SwiftUI
-var location1Inst = inventory1()
 struct location1View: View {
-    @State private var donate: Int = 0
-    @State private var receive: Int = 0
+    @StateObject var location1Inst = inventory1()
+    @AppStorage("donate") var donate: Int = 0
+    @AppStorage("receive") var receive: Int = 0
     var body: some View {
         Text("Location 1")
         .padding()

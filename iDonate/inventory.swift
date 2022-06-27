@@ -7,19 +7,19 @@
 
 import Foundation
 
-struct inventory1 {
-    var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "onion": 100]
+class inventory1: ObservableObject {
+    @Published var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "onion": 100]
 }
 
-struct inventory2 {
-    var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "tomato": 100]
+class inventory2: ObservableObject {
+    @Published var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "tomato": 100]
 }
 
-struct inventory3 {
-    var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "lettuce": 100]
+class inventory3: ObservableObject {
+    @Published var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "lettuce": 100]
 }
 
-struct inventory4 {
-    var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "peach": 100]
+class inventory4: ObservableObject {
+    @Published var food = ["chicken": 100, "beef": 100, "bread": 100, "banana": 100, "strawberry": 100, "mango": 100, "peach": 100]
 }
 
