@@ -46,7 +46,7 @@ struct RecommendationDisplay: View {
                 .toolbar {
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
                         NavigationLink(destination: SavedRecipe()) {
-                            Text("Load Saved Recipe")
+                            Label("Open", systemImage: "square.and.arrow.down")
                         }
                     }
                 }

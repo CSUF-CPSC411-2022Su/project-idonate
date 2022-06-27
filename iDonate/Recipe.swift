@@ -25,7 +25,7 @@ struct Recipe: View {
                         saveRecipe = recipe.linkToRecipe
                         saveName = recipe.foodName
                     } label: {
-                        Label("Save", systemImage: "square.and.arrow.down")
+                        Label("Save", systemImage: "plus")
                     }
                 }
             }
