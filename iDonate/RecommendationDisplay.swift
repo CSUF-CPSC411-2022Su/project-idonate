@@ -52,6 +52,7 @@ struct RecommendationDisplay: View {
                 }
             }
         }
+        .navigationBarHidden(false).animation(.linear(duration: 0.275))
     }
 }
 
