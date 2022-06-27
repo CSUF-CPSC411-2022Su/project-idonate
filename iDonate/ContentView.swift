@@ -17,13 +17,16 @@ struct ContentView: View {
     @State var item: String = ""
     @State var itemAddMessage: String = ""
     @State var list = [String]()
+//    var foods: FoodData
     
 
     func addNewItem() {
         if item != "" {
-            donationList.donations.append(Donation(DonationItem: item))
+//            if foods.foodName.contains(item) {
+                    donationList.donations.append(Donation(DonationItem: item))
+                    self.item = ""
+//            }
         }
-        self.item = ""
     }
     
     var body: some View {
@@ -41,10 +44,19 @@ struct ContentView: View {
                                 )}
                         }
                     }.padding()
-                    List(self.donationList.donations){ donation in
+                    EditButton()
+                    List {
+                        ForEach(donationList.donations) {
+                        donation in
                         Text(donation.DonationItem)
+                            .font(.subheadline)
+                    }.onDelete {
+                        offset in
+                        donationList.donations.remove(atOffsets: offset)
+                                   }
                     }
                 }
+                .padding()
 
                 VStack{
                     NavigationLink(destination: LocationsView()) {

@@ -6,6 +6,7 @@
 //
 import SwiftUI
 import Combine
+import MapKit
 
 struct Donation: Identifiable{
     var id = UUID()
@@ -21,32 +22,40 @@ struct FoodData: Identifiable {
     var foodName: String
 }
 
-struct foodList {
+class foodList {
+//    @Published var foods:[FoodData] = ["Apple"]
         static let list = [
             FoodData(foodName: "Apple"),
             FoodData(foodName: "Chicken"),
-            FoodData(foodName: "Banan"),
+            FoodData(foodName: "Banana"),
             FoodData(foodName: "Bread"),
             ]
 }
 
 struct Data: Identifiable {
     var id = UUID()
+    var index : Int
     var location: String
     var address: String
+    var latitude : Double
+    var longitude: Double
+    var coordinate : CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+    var food : [String]
 }
 
 struct LocationList{
         static let list = [
-            Data(location: "Together We Rise", address: "560 W Lambert Rd, Brea, CA 92821"),
-            Data(location: "Meals On Wheels", address: "223 W Amerige Ave #1806, Fullerton, CA 92832"),
-            Data(location: "Assistance League of Fullerton", address: "233 W Amerige Ave, Fullerton, CA 92832"),
-            Data(location: "Hub Of Hope", address: "611 S Ford Ave, Fullerton, CA 92832"),
-            Data(location: "First Lutheran Church-Fullerton", address: "215 N Lemon St, Fullerton, CA 92832"),
-            Data(location: "Pathways of Hope", address: "1231 E Chapman Ave, Fullerton, CA 92831"),
-            Data(location: "Orange County Food Bank", address: "11870 Monarch St, Garden Grove, CA 92841"),
-            Data(location: "Family Support Network", address: "1015 S Placentia Ave, Fullerton, CA 92831"),
-            Data(location: "First Lutheran Church - Food Distribution Center", address: "215 N Lemon St, Fullerton, CA 92832"),
-            Data(location: "Calvary Community Church - Food Distribution Center", address: "1465 W Orangethorpe Ave, Fullerton, CA 92833")
+            Data(index : 0, location: "Together We Rise", address: "560 W Lambert Rd, Brea, CA 92821", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+            Data(index : 1, location: "Meals On Wheels", address: "223 W Amerige Ave #1806, Fullerton, CA 92832",latitude: 33.87163, longitude: 117.92753, food:["Apple","Chicken"]),
+//            Data(location: "Assistance League of Fullerton", address: "233 W Amerige Ave, Fullerton, CA 92832", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+//            Data(location: "Hub Of Hope", address: "611 S Ford Ave, Fullerton, CA 92832", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+//            Data(location: "First Lutheran Church-Fullerton", address: "215 N Lemon St, Fullerton, CA 92832", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+//            Data(location: "Pathways of Hope", address: "1231 E Chapman Ave, Fullerton, CA 92831", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+//            Data(location: "Orange County Food Bank", address: "11870 Monarch St, Garden Grove, CA 92841", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+//            Data(location: "Family Support Network", address: "1015 S Placentia Ave, Fullerton, CA 92831", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+//            Data(location: "First Lutheran Church - Food Distribution Center", address: "215 N Lemon St, Fullerton, CA 92832", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"]),
+//            Data(location: "Calvary Community Church - Food Distribution Center", address: "1465 W Orangethorpe Ave, Fullerton, CA 92833", latitude: 33.924310, longitude: -117.904570, food:["Apple","Chicken"])
         ]
     }
