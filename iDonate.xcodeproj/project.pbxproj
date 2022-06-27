@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E5C2868F571003F4C41 /* RecipeWebView.swift */; };
+		7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E602869562C003F4C41 /* SavedRecipe.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* ContentView.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A641E5C2868F571003F4C41 /* RecipeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeWebView.swift; sourceTree = "<group>"; };
+		7A641E602869562C003F4C41 /* SavedRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecipe.swift; sourceTree = "<group>"; };
 		7A6E40982851203000BEBB1C /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6E409B2851203000BEBB1C /* iDonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateApp.swift; sourceTree = "<group>"; };
 		7A6E409D2851203000BEBB1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,7 +119,9 @@
 				7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */,
 				7A6E41012856C5A600BEBB1C /* FoodData.swift */,
 				7A6E41052856E8A800BEBB1C /* Recipe.swift */,
+				7A641E602869562C003F4C41 /* SavedRecipe.swift */,
 				7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */,
+				7A641E5C2868F571003F4C41 /* RecipeWebView.swift */,
 			);
 			path = iDonate;
 			sourceTree = "<group>";
@@ -282,7 +288,9 @@
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
 				7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */,
 				7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */,
+				7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */,
 				7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */,
+				7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@ struct FoodRecommendationsFilter: View {
     var body: some View {
         HStack {
             // Gets the user's input.
-            TextField("Enter Food Ingredients", text: $text)
+            TextField("Enter A Food Ingredient", text: $text)
                 .padding(15)
                 .padding(.horizontal, 25)
                 .background(Color(.systemGray5))

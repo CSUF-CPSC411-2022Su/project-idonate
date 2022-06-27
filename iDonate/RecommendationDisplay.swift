@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct RecommendationDisplay: View {
-    @State var text = ""
+    @SceneStorage("savedSearch") var text = ""
     var columns = Array(repeating: GridItem(.flexible()), count: 2)
+    @State var url = Recipe(recipe: FoodLists.first!)
 
     var body: some View {
         NavigationView {
@@ -19,36 +20,47 @@ struct RecommendationDisplay: View {
                     .navigationTitle("Food Recommendation")
                     .preferredColorScheme(.dark)
 
-                // This will display the name and image of the food(s) that is being filtered from the list of foods.
+                // This will display the name and image of the food(s) that is being filtered from the list of ingredients.
                 ScrollView(.vertical, showsIndicators: false) {
                     LazyVGrid(columns: columns, spacing: 20) {
-                        ForEach(FoodList.FoodLists.filter { "\($0)".contains(text) || text.isEmpty }) { i in
-                            NavigationLink(destination: Recipe(recipe: i)) {
-                                VStack {
-                                    Text(i.foodName)
-                                        .bold()
-                                    Image(i.foodName)
-                                        .resizable()
-                                        .scaledToFit()
-                                        .cornerRadius(10)
+                        ForEach(FoodLists.filter { "\($0)".contains(text) || text.isEmpty }) { i in
+                            if text != i.foodName && text != i.linkToRecipe {
+                                NavigationLink(destination: Recipe(recipe: i)) {
+                                    VStack {
+                                        Text(i.foodName)
+                                            .bold()
+                                            .modifier(TextModifer())
+                                        Image(i.foodName)
+                                            .resizable()
+                                            .scaledToFit()
+                                            .cornerRadius(10)
+                                    }
+                                    .padding(.horizontal)
+                                    .frame(width: 170, height: 170)
                                 }
-                                .padding(.horizontal)
-                                .frame(width: 170, height: 170)
                             }
                         }
                     }
                 }
+                // This creates the toolbar on the top-right hand corner which allows the user to view the saved recipe.
                 .toolbar {
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
-                        Button {
-                            print("Save tapped")
-                        } label: {
-                            Label("Save", systemImage: "magnifyingglass")
+                        NavigationLink(destination: SavedRecipe()) {
+                            Text("Load Saved Recipe")
                         }
                     }
                 }
             }
         }
+    }
+}
+
+struct TextModifer: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.custom("", size: 14))
+            .foregroundColor(Color.cyan)
+            .cornerRadius(30)
     }
 }
 
