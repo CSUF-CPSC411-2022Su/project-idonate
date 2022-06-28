@@ -10,7 +10,6 @@ import SwiftUI
 import Combine
 
 var foods: [FoodData] = foodList.list
-var locations: [Data] = LocationList.list
 
 struct AddDonation: View {
     
@@ -65,7 +64,6 @@ struct AddDonation: View {
                     }
                 Spacer()
                 .navigationTitle(Text("Donation"))
-                .navigationBarHidden(true)
             }
         }
         

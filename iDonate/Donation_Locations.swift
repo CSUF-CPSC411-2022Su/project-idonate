@@ -10,12 +10,13 @@ import Foundation
 import SwiftUI
 
 struct LocationsView: View {
+    @State var locations: [Data] = LocationList.list
     
     var body: some View {
         NavigationView{
             VStack {
                 List(locations, id: \.id){data in
-                    NavigationLink(destination: LocationDetailView(locations: data), label: {
+                    NavigationLink(destination: LocationDetailView(locations: [data]), label: {
                         VStack(alignment: .leading, spacing: 5){
                             Text(data.location)
                                 .fontWeight(.semibold)
