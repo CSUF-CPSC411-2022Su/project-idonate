@@ -26,6 +26,6 @@ struct LocationsView: View {
                     })
                 }
             }.navigationTitle("Locations")
-        }
+        }.navigationBarHidden(true)
     }
 }

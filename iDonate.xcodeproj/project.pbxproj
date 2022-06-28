@@ -18,7 +18,6 @@
 		7A6E40C62851206A00BEBB1C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C52851206A00BEBB1C /* .gitignore */; };
 		7A6E40C82851209900BEBB1C /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C72851209900BEBB1C /* .gitattributes */; };
 		7A86635F28618AE7001E8B05 /* Donation_Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86635E28618AE7001E8B05 /* Donation_Locations.swift */; };
-		7A9B397B2868243900F84FED /* Donation_MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9B397A2868243900F84FED /* Donation_MapView.swift */; };
 		7A9B397D286A2A8200F84FED /* Donation_InputDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9B397C286A2A8200F84FED /* Donation_InputDonate.swift */; };
 		7ACC062D285F969E00A962AA /* Donation_Location_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC062C285F969E00A962AA /* Donation_Location_Detail.swift */; };
 /* End PBXBuildFile section */
@@ -55,7 +54,6 @@
 		7A6E40C52851206A00BEBB1C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A6E40C72851209900BEBB1C /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		7A86635E28618AE7001E8B05 /* Donation_Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donation_Locations.swift; sourceTree = "<group>"; };
-		7A9B397A2868243900F84FED /* Donation_MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donation_MapView.swift; sourceTree = "<group>"; };
 		7A9B397C286A2A8200F84FED /* Donation_InputDonate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donation_InputDonate.swift; sourceTree = "<group>"; };
 		7ACC062C285F969E00A962AA /* Donation_Location_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donation_Location_Detail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +114,6 @@
 				7A9B397C286A2A8200F84FED /* Donation_InputDonate.swift */,
 				7A86635E28618AE7001E8B05 /* Donation_Locations.swift */,
 				7ACC062C285F969E00A962AA /* Donation_Location_Detail.swift */,
-				7A9B397A2868243900F84FED /* Donation_MapView.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
 			);
@@ -283,7 +280,6 @@
 				7A86635F28618AE7001E8B05 /* Donation_Locations.swift in Sources */,
 				7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
-				7A9B397B2868243900F84FED /* Donation_MapView.swift in Sources */,
 				7A9B397D286A2A8200F84FED /* Donation_InputDonate.swift in Sources */,
 				7A23AFDC285831D3000B5F0E /* Donation_Data.swift in Sources */,
 				7ACC062D285F969E00A962AA /* Donation_Location_Detail.swift in Sources */,

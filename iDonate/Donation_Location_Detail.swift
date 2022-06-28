@@ -5,19 +5,18 @@
 //  Created by csuftitan on 6/19/22.
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
 
 struct LocationDetailView: View {
     var locations: Data
-    
+
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 33.8385378, longitude: -117.9388131),
-           span: MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3))
-        
+        span: MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3))
+
     var body: some View {
-        
-        NavigationView{
+        NavigationView {
             VStack {
                 Text(locations.location)
                     .font(.headline)
@@ -26,25 +25,20 @@ struct LocationDetailView: View {
                     .padding()
                 Spacer()
                 Text("We accpet:")
+                HStack{
                 ForEach(locations.food, id: \.self) {
-                                    food in
-                                    HStack {
-                                        Text(food)
-                                    }
+                    food in
+                        Text(food)
+                }
                 }
                 Spacer()
-                VStack{
-//                    NavigationLink(destination: MapView(long : locations.longitude, lat : locations.latitude)){
-//                        Text("Detail")
-//                    }
-                    Map(coordinateRegion: $region, annotationItems: LocationList.list){
+                    Map(coordinateRegion: $region, annotationItems: LocationList.list) {
                         Data in
                         MapPin(coordinate: Data.coordinate,
-                                           tint: Color.purple)
+                               tint: Color.purple)
                     }
-            }
-        .navigationTitle("Detail")
+                }
+                .navigationTitle("Detail")
+            }.navigationBarHidden(true)
+        }
     }
-}
-}
-}
