@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E5C2868F571003F4C41 /* RecipeWebView.swift */; };
 		7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E602869562C003F4C41 /* SavedRecipe.swift */; };
+		7A23AFDC285831D3000B5F0E /* Donation_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AFDB285831D3000B5F0E /* Donation_Data.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* ContentView.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -114,6 +115,10 @@
 			children = (
 				7A6E409B2851203000BEBB1C /* iDonateApp.swift */,
 				7A6E409D2851203000BEBB1C /* ContentView.swift */,
+				7A23AFDB285831D3000B5F0E /* Donation_Data.swift */,
+				7A9B397C286A2A8200F84FED /* Donation_InputDonate.swift */,
+				7A86635E28618AE7001E8B05 /* Donation_Locations.swift */,
+				7ACC062C285F969E00A962AA /* Donation_Location_Detail.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
 				7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */,
@@ -449,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iDonate/Preview Content\"";
+				DEVELOPMENT_TEAM = 2K9XV27K36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -477,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iDonate/Preview Content\"";
+				DEVELOPMENT_TEAM = 2K9XV27K36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
