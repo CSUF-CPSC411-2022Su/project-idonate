@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0895A0286B681D00D57311 /* Pathways of Hope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08959F286B681D00D57311 /* Pathways of Hope.swift */; };
+		7A0895A2286B684400D57311 /* First Lutheran Church - Fullerton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0895A1286B684400D57311 /* First Lutheran Church - Fullerton.swift */; };
+		7A0895A4286B687800D57311 /* Orange County Food Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0895A3286B687800D57311 /* Orange County Food Bank.swift */; };
+		7A0895A6286B689200D57311 /* Family Support Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0895A5286B689200D57311 /* Family Support Network.swift */; };
+		7A0895A8286B68BC00D57311 /* First Lutheran Church - Food Distribution Center .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0895A7286B68BC00D57311 /* First Lutheran Church - Food Distribution Center .swift */; };
+		7A0895AA286B692800D57311 /* Calvary Community Church - Food Distribution Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0895A9286B692800D57311 /* Calvary Community Church - Food Distribution Center.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* ContentView.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -17,10 +23,10 @@
 		7A6E40C62851206A00BEBB1C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C52851206A00BEBB1C /* .gitignore */; };
 		7A6E40C82851209900BEBB1C /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C72851209900BEBB1C /* .gitattributes */; };
 		7AC8977D2851230200D4EE55 /* inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8977C2851230200D4EE55 /* inventory.swift */; };
-		7AC897C3286042CE00D4EE55 /* Location1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C2286042CE00D4EE55 /* Location1.swift */; };
-		7AC897C52860EB3D00D4EE55 /* Location2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C42860EB3D00D4EE55 /* Location2.swift */; };
-		7AC897C72860EB4E00D4EE55 /* Location3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C62860EB4E00D4EE55 /* Location3.swift */; };
-		7AC897C92860EB5F00D4EE55 /* Location4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C82860EB5F00D4EE55 /* Location4.swift */; };
+		7AC897C3286042CE00D4EE55 /* Friendly Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C2286042CE00D4EE55 /* Friendly Center.swift */; };
+		7AC897C52860EB3D00D4EE55 /* Meals On Wheels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C42860EB3D00D4EE55 /* Meals On Wheels.swift */; };
+		7AC897C72860EB4E00D4EE55 /* Assistance League of Fullerton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C62860EB4E00D4EE55 /* Assistance League of Fullerton.swift */; };
+		7AC897C92860EB5F00D4EE55 /* Hub of Hope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C82860EB5F00D4EE55 /* Hub of Hope.swift */; };
 		7AC897CB2861015000D4EE55 /* inventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897CA2861015000D4EE55 /* inventoryView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A08959F286B681D00D57311 /* Pathways of Hope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pathways of Hope.swift"; sourceTree = "<group>"; };
+		7A0895A1286B684400D57311 /* First Lutheran Church - Fullerton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Lutheran Church - Fullerton.swift"; sourceTree = "<group>"; };
+		7A0895A3286B687800D57311 /* Orange County Food Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Orange County Food Bank.swift"; sourceTree = "<group>"; };
+		7A0895A5286B689200D57311 /* Family Support Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family Support Network.swift"; sourceTree = "<group>"; };
+		7A0895A7286B68BC00D57311 /* First Lutheran Church - Food Distribution Center .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Lutheran Church - Food Distribution Center .swift"; sourceTree = "<group>"; };
+		7A0895A9286B692800D57311 /* Calvary Community Church - Food Distribution Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calvary Community Church - Food Distribution Center.swift"; sourceTree = "<group>"; };
 		7A6E40982851203000BEBB1C /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6E409B2851203000BEBB1C /* iDonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateApp.swift; sourceTree = "<group>"; };
 		7A6E409D2851203000BEBB1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,10 +67,10 @@
 		7A6E40C52851206A00BEBB1C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A6E40C72851209900BEBB1C /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		7AC8977C2851230200D4EE55 /* inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventory.swift; sourceTree = "<group>"; };
-		7AC897C2286042CE00D4EE55 /* Location1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location1.swift; sourceTree = "<group>"; };
-		7AC897C42860EB3D00D4EE55 /* Location2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location2.swift; sourceTree = "<group>"; };
-		7AC897C62860EB4E00D4EE55 /* Location3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location3.swift; sourceTree = "<group>"; };
-		7AC897C82860EB5F00D4EE55 /* Location4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location4.swift; sourceTree = "<group>"; };
+		7AC897C2286042CE00D4EE55 /* Friendly Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friendly Center.swift"; sourceTree = "<group>"; };
+		7AC897C42860EB3D00D4EE55 /* Meals On Wheels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meals On Wheels.swift"; sourceTree = "<group>"; };
+		7AC897C62860EB4E00D4EE55 /* Assistance League of Fullerton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assistance League of Fullerton.swift"; sourceTree = "<group>"; };
+		7AC897C82860EB5F00D4EE55 /* Hub of Hope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hub of Hope.swift"; sourceTree = "<group>"; };
 		7AC897CA2861015000D4EE55 /* inventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,10 +128,16 @@
 				7AC8977C2851230200D4EE55 /* inventory.swift */,
 				7A6E409D2851203000BEBB1C /* ContentView.swift */,
 				7AC897CA2861015000D4EE55 /* inventoryView.swift */,
-				7AC897C2286042CE00D4EE55 /* Location1.swift */,
-				7AC897C42860EB3D00D4EE55 /* Location2.swift */,
-				7AC897C62860EB4E00D4EE55 /* Location3.swift */,
-				7AC897C82860EB5F00D4EE55 /* Location4.swift */,
+				7AC897C2286042CE00D4EE55 /* Friendly Center.swift */,
+				7AC897C42860EB3D00D4EE55 /* Meals On Wheels.swift */,
+				7AC897C62860EB4E00D4EE55 /* Assistance League of Fullerton.swift */,
+				7AC897C82860EB5F00D4EE55 /* Hub of Hope.swift */,
+				7A0895A1286B684400D57311 /* First Lutheran Church - Fullerton.swift */,
+				7A08959F286B681D00D57311 /* Pathways of Hope.swift */,
+				7A0895A3286B687800D57311 /* Orange County Food Bank.swift */,
+				7A0895A5286B689200D57311 /* Family Support Network.swift */,
+				7A0895A7286B68BC00D57311 /* First Lutheran Church - Food Distribution Center .swift */,
+				7A0895A9286B692800D57311 /* Calvary Community Church - Food Distribution Center.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
 			);
@@ -283,14 +301,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC897C72860EB4E00D4EE55 /* Location3.swift in Sources */,
+				7AC897C72860EB4E00D4EE55 /* Assistance League of Fullerton.swift in Sources */,
 				7AC8977D2851230200D4EE55 /* inventory.swift in Sources */,
 				7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */,
-				7AC897C52860EB3D00D4EE55 /* Location2.swift in Sources */,
+				7AC897C52860EB3D00D4EE55 /* Meals On Wheels.swift in Sources */,
+				7A0895A6286B689200D57311 /* Family Support Network.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
-				7AC897C3286042CE00D4EE55 /* Location1.swift in Sources */,
-				7AC897C92860EB5F00D4EE55 /* Location4.swift in Sources */,
+				7AC897C3286042CE00D4EE55 /* Friendly Center.swift in Sources */,
+				7AC897C92860EB5F00D4EE55 /* Hub of Hope.swift in Sources */,
+				7A0895A0286B681D00D57311 /* Pathways of Hope.swift in Sources */,
+				7A0895A2286B684400D57311 /* First Lutheran Church - Fullerton.swift in Sources */,
 				7AC897CB2861015000D4EE55 /* inventoryView.swift in Sources */,
+				7A0895A4286B687800D57311 /* Orange County Food Bank.swift in Sources */,
+				7A0895AA286B692800D57311 /* Calvary Community Church - Food Distribution Center.swift in Sources */,
+				7A0895A8286B68BC00D57311 /* First Lutheran Church - Food Distribution Center .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

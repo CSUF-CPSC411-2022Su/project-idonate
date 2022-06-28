@@ -15,22 +15,47 @@ struct inventoryView: View {
                         .padding()
                 }
                 NavigationLink(destination: location1View()) {
-                        Text("Location 1")
+                    Text("Friendly Center")
                         .padding()
                 }
                 NavigationLink(destination: location2View()) {
-                        Text("Location 2")
+                    Text("Meals on Wheeels")
                         .padding()
                 }
                 NavigationLink(destination: location3View()) {
-                        Text("Location 3")
+                    Text("Assistance League of Fullerton")
                         .padding()
                 }
                 NavigationLink(destination: location4View()) {
-                        Text("Location 4")
+                    Text("First Lutheran Church - Fullerton")
                         .padding()
                 }
+                NavigationLink(destination: location5View()) {
+                    Text("Hub of Hope")
+                        .padding()
+                }
+                NavigationLink(destination: location6View()) {
+                    Text("Pathways of Hope")
+                        .padding()
+                }
+                NavigationLink(destination: location7View()) {
+                    Text("Orange County Food Bank")
+                        .padding()
+                }
+                NavigationLink(destination: location8View()) {
+                    Text("Family Support Network")
+                        .padding()
+                }
+                NavigationLink(destination: location9View()) {
+                    Text("First Lutheran Church - Food Distribution Center")
+                        .padding()
+                }
+//                NavigationLink(destination: location10View()) {
+//                    Text("First Lutheran Church - Food Distribution Center")
+//                        .padding()
+//                }
             }
+            .preferredColorScheme(.dark)
         }
     }
 }
