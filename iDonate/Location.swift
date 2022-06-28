@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-var locations: [Data] = reviewList.list
+var locations: [donatingPlace] = reviewList.list
 
 struct Location: View {
     var body: some View {
-        NavigationView{
-            List(locations, id: \.id){data in
+        NavigationView {
+            List(locations, id: \.id) { data in
                 NavigationLink(destination: review(locations: data), label: {
-                    VStack(alignment: .leading, spacing: 5){
+                    VStack(alignment: .leading, spacing: 5) {
                         Text(data.location)
                             .fontWeight(.semibold)
                         Text(data.address)
@@ -24,9 +24,8 @@ struct Location: View {
                 })
             }
             .navigationTitle("Locations")
-            
-        }
-        
+
+        }.preferredColorScheme(.dark)
     }
 }
 

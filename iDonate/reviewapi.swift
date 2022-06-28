@@ -4,30 +4,28 @@
 //
 //  Created by csuftitan on 6/26/22.
 //
-
 import Foundation
 import SwiftUI
 
 struct MapsAPIResult: Codable {
     var type: String
     var query: [String]
-    var features: [Crosswalk]
+    var features: [Area]
     // TODO: Provide a property to represent attribution
     var attribution: String
 }
 
-struct Crosswalk: Codable {
+struct Area: Codable {
     var text: String
     var place_name: String
     // TODO: Provide property to store the JSON's center key/value pair
     var center: [Double]
 }
 
-class CrosswalkFinder: ObservableObject {
+class LocationFinder: ObservableObject {
     @Published var firstFoundName = ""
     @Published var image = UIImage()
-    
-    
+
     private var accessToken = "sk.eyJ1IjoiYXB1cnZhZ2F3YW5kZSIsImEiOiJjbDR3NHJvNXIxbWhwM2NuN3JwZHBwNmVxIn0.2cqYg5YVA8R6RE3kzlxP2Q"
 
     func find(_ searchString: String) {
@@ -38,7 +36,6 @@ class CrosswalkFinder: ObservableObject {
         let mapboxSearchURL = "https://api.mapbox.com/geocoding/v5/mapbox.places/\(searchString).json?access_token=\(accessToken)"
 
         /* addingPercentEncoding is a String method that returns a new string created by replacing all characters in the string not in the specified set (CharacterSet.urlQueryAllowed) with percent encoded characters. URLs cannot contain spaces and other special characters so they are replaced with percent encoded characters such as %20 indicating a space.
-
             URL is a structure that tries to convert a String into a URL object.
          */
         if let urlString = mapboxSearchURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed),
@@ -58,10 +55,8 @@ class CrosswalkFinder: ObservableObject {
 
                             // TODO: Retrieve the first value in the center property and store in long
                             let long = result.features[0].center[0] // Replace 0.0 with code
-
                             // TODO: Retrieve the second value in the center property and store in lat
                             let lat = result.features[0].center[1] // Replace 0.0 with code
-
                             self.loadMapImage(long: long, lat: lat)
                         } else {
                             self.firstFoundName = "No results found"
