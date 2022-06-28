@@ -25,20 +25,20 @@ struct LocationDetailView: View {
                     .padding()
                 Spacer()
                 Text("We accpet:")
-                HStack{
-                ForEach(locations[0].food, id: \.self) {
-                    food in
+                HStack {
+                    ForEach(locations[0].food, id: \.self) {
+                        food in
                         Text(food)
-                }
-                }
-                Spacer()
-                    Map(coordinateRegion: $region, annotationItems: locations) {
-                        data in
-                        MapPin(coordinate: data.coordinate,
-                               tint: Color.purple)
                     }
                 }
-                .navigationTitle("Detail")
+                Spacer()
+                Map(coordinateRegion: $region, annotationItems: locations) {
+                    data in
+                    MapPin(coordinate: data.coordinate,
+                           tint: Color.purple)
+                }
             }
+            .navigationTitle("Detail")
         }
     }
+}

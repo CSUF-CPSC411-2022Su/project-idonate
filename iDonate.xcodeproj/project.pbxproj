@@ -109,8 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				7A6E409B2851203000BEBB1C /* iDonateApp.swift */,
-				7A23AFDB285831D3000B5F0E /* Donation_Data.swift */,
 				7A6E409D2851203000BEBB1C /* ContentView.swift */,
+				7A23AFDB285831D3000B5F0E /* Donation_Data.swift */,
 				7A9B397C286A2A8200F84FED /* Donation_InputDonate.swift */,
 				7A86635E28618AE7001E8B05 /* Donation_Locations.swift */,
 				7ACC062C285F969E00A962AA /* Donation_Location_Detail.swift */,
