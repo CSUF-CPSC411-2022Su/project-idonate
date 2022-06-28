@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E5C2868F571003F4C41 /* RecipeWebView.swift */; };
+		7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E602869562C003F4C41 /* SavedRecipe.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* ContentView.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -16,6 +18,10 @@
 		7A6E40B92851203300BEBB1C /* iDonateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E40B82851203300BEBB1C /* iDonateUITestsLaunchTests.swift */; };
 		7A6E40C62851206A00BEBB1C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C52851206A00BEBB1C /* .gitignore */; };
 		7A6E40C82851209900BEBB1C /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C72851209900BEBB1C /* .gitattributes */; };
+		7A6E40CA285122A600BEBB1C /* FoodRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */; };
+		7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41012856C5A600BEBB1C /* FoodData.swift */; };
+		7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41052856E8A800BEBB1C /* Recipe.swift */; };
+		7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A641E5C2868F571003F4C41 /* RecipeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeWebView.swift; sourceTree = "<group>"; };
+		7A641E602869562C003F4C41 /* SavedRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecipe.swift; sourceTree = "<group>"; };
 		7A6E40982851203000BEBB1C /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6E409B2851203000BEBB1C /* iDonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateApp.swift; sourceTree = "<group>"; };
 		7A6E409D2851203000BEBB1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +56,10 @@
 		7A6E40B82851203300BEBB1C /* iDonateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A6E40C52851206A00BEBB1C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A6E40C72851209900BEBB1C /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecommendations.swift; sourceTree = "<group>"; };
+		7A6E41012856C5A600BEBB1C /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		7A6E41052856E8A800BEBB1C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,12 @@
 				7A6E409D2851203000BEBB1C /* ContentView.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
+				7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */,
+				7A6E41012856C5A600BEBB1C /* FoodData.swift */,
+				7A6E41052856E8A800BEBB1C /* Recipe.swift */,
+				7A641E602869562C003F4C41 /* SavedRecipe.swift */,
+				7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */,
+				7A641E5C2868F571003F4C41 /* RecipeWebView.swift */,
 			);
 			path = iDonate;
 			sourceTree = "<group>";
@@ -265,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6E40CA285122A600BEBB1C /* FoodRecommendations.swift in Sources */,
 				7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
+				7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */,
+				7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */,
+				7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */,
+				7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */,
+				7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
