@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A19971B286967880065F21E /* reviewapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19971A286967880065F21E /* reviewapi.swift */; };
-		7A19971D286975760065F21E /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19971C286975760065F21E /* Persistance.swift */; };
-		7A1B849F28512A9900803B93 /* review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B849E28512A9900803B93 /* review.swift */; };
+		7A19971B286967880065F21E /* ReviewApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19971A286967880065F21E /* ReviewApi.swift */; };
+		7A19971D286975760065F21E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19971C286975760065F21E /* Persistence.swift */; };
+		7A1B849F28512A9900803B93 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B849E28512A9900803B93 /* Review.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* Location.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 		7A6E40B92851203300BEBB1C /* iDonateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E40B82851203300BEBB1C /* iDonateUITestsLaunchTests.swift */; };
 		7A6E40C62851206A00BEBB1C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C52851206A00BEBB1C /* .gitignore */; };
 		7A6E40C82851209900BEBB1C /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C72851209900BEBB1C /* .gitattributes */; };
-		7A8209D12855B3BD00B4352D /* reviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8209D02855B3BD00B4352D /* reviewData.swift */; };
+		7A8209D12855B3BD00B4352D /* ReviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8209D02855B3BD00B4352D /* ReviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A19971A286967880065F21E /* reviewapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewapi.swift; sourceTree = "<group>"; };
-		7A19971C286975760065F21E /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
-		7A1B849E28512A9900803B93 /* review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = review.swift; sourceTree = "<group>"; };
+		7A19971A286967880065F21E /* ReviewApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewApi.swift; sourceTree = "<group>"; };
+		7A19971C286975760065F21E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7A1B849E28512A9900803B93 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		7A6E40982851203000BEBB1C /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6E409B2851203000BEBB1C /* iDonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateApp.swift; sourceTree = "<group>"; };
 		7A6E409D2851203000BEBB1C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		7A6E40B82851203300BEBB1C /* iDonateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A6E40C52851206A00BEBB1C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A6E40C72851209900BEBB1C /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
-		7A8209D02855B3BD00B4352D /* reviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewData.swift; sourceTree = "<group>"; };
+		7A8209D02855B3BD00B4352D /* ReviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +110,10 @@
 			children = (
 				7A6E409B2851203000BEBB1C /* iDonateApp.swift */,
 				7A6E409D2851203000BEBB1C /* Location.swift */,
-				7A1B849E28512A9900803B93 /* review.swift */,
-				7A8209D02855B3BD00B4352D /* reviewData.swift */,
-				7A19971A286967880065F21E /* reviewapi.swift */,
-				7A19971C286975760065F21E /* Persistance.swift */,
+				7A1B849E28512A9900803B93 /* Review.swift */,
+				7A8209D02855B3BD00B4352D /* ReviewData.swift */,
+				7A19971A286967880065F21E /* ReviewApi.swift */,
+				7A19971C286975760065F21E /* Persistence.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
 			);
@@ -278,11 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A6E409E2851203000BEBB1C /* Location.swift in Sources */,
-				7A19971B286967880065F21E /* reviewapi.swift in Sources */,
+				7A19971B286967880065F21E /* ReviewApi.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
-				7A1B849F28512A9900803B93 /* review.swift in Sources */,
-				7A8209D12855B3BD00B4352D /* reviewData.swift in Sources */,
-				7A19971D286975760065F21E /* Persistance.swift in Sources */,
+				7A1B849F28512A9900803B93 /* Review.swift in Sources */,
+				7A8209D12855B3BD00B4352D /* ReviewData.swift in Sources */,
+				7A19971D286975760065F21E /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
