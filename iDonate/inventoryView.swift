@@ -14,45 +14,45 @@ struct inventoryView: View {
                     Text("Where would you like to give or recieve a food donation?")
                         .padding()
                 }
-                NavigationLink(destination: location1View()) {
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "Friendly Center")) {
                     Text("Friendly Center")
                         .padding()
                 }
-                NavigationLink(destination: location2View()) {
-                    Text("Meals on Wheeels")
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "Meals on Wheels")) {
+                    Text("Meals on Wheels")
                         .padding()
                 }
-                NavigationLink(destination: location3View()) {
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "Assistance League of Fullerton")) {
                     Text("Assistance League of Fullerton")
                         .padding()
                 }
-                NavigationLink(destination: location4View()) {
-                    Text("First Lutheran Church - Fullerton")
-                        .padding()
-                }
-                NavigationLink(destination: location5View()) {
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "Hub of Hope")) {
                     Text("Hub of Hope")
                         .padding()
                 }
-                NavigationLink(destination: location6View()) {
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "First Lutheran Church - Fullerton")) {
+                    Text("First Lutheran Church - Fullerton")
+                        .padding()
+                }
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "Pathways of Hope")) {
                     Text("Pathways of Hope")
                         .padding()
                 }
-                NavigationLink(destination: location7View()) {
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "Orange County Food Bank")) {
                     Text("Orange County Food Bank")
                         .padding()
                 }
-                NavigationLink(destination: location8View()) {
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "Family Support Network")) {
                     Text("Family Support Network")
                         .padding()
                 }
-                NavigationLink(destination: location9View()) {
-                    Text("First Lutheran Church - Food Distribution Center")
+                NavigationLink(destination: locationView(locationInst: inventory(), name: "First Lutheran Church")) {
+                    Text("First Lutheran Church")
                         .padding()
                 }
-//                NavigationLink(destination: location10View()) {
-//                    Text("First Lutheran Church - Food Distribution Center")
-//                        .padding()
+                ////                NavigationLink(destination: locationView(locationInst: inventory(), name: "Cavalry Community Church - Food Distritbution Center")) {
+                ////                    Text("Friendly Center")
+                ////                        .padding()
 //                }
             }
             .preferredColorScheme(.dark)
