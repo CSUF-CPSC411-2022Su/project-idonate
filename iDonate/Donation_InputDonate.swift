@@ -13,17 +13,14 @@ var foods: [FoodData] = foodList.list
 
 struct AddDonation: View {
     @ObservedObject var donationList = DonationList()
-    @State var item: String = ""
-    @State var itemAddMessage: String = ""
+    @AppStorage("item") var item: String = ""
     @State var list = [String]()
-    //    var foods: FoodData
 
+    // if user input item, it will add to the donationList
     func addNewItem() {
         if item != "" {
-            //            if foods.foodName.contains(item) {
             donationList.donations.append(Donation(DonationItem: item))
             item = ""
-            //            }
         }
     }
 
@@ -33,15 +30,18 @@ struct AddDonation: View {
                 VStack {
                     HStack {
                         VStack {
+                            // user input - what they want to donate
                             Text("Input the food you want to donate")
                             HStack {
                                 TextField("Food", text: $item)
+                                // add button - allow user to add
                                 Button(action: self.addNewItem, label: {
                                     Text("Add")
                                 })
                             }
                         }
                     }.padding()
+                    // print donationList array to view
                     EditButton()
                     List {
                         ForEach(donationList.donations) {
@@ -56,6 +56,7 @@ struct AddDonation: View {
                 }
                 .padding()
 
+                // link to view show all the locations
                 VStack {
                     NavigationLink(destination: LocationsView()) {
                         Text("Locations")
