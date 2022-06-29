@@ -2,9 +2,10 @@
 //  ContentView.swift
 //  iDonate
 //
-//  Created by csuftitan on 6/8/22.
+//  Created by Daniel on 6/8/22.
 //
 
+import Combine
 import SwiftUI
 
 var locations: [donatingPlace] = reviewList.list

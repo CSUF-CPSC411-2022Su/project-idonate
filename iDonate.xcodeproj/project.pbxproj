@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7A19971B286967880065F21E /* ReviewApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19971A286967880065F21E /* ReviewApi.swift */; };
 		7A1B849F28512A9900803B93 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B849E28512A9900803B93 /* Review.swift */; };
+		7A5C84E1286CBCFF00C8E7B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5C84E0286CBCFF00C8E7B6 /* ContentView.swift */; };
+		7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E5C2868F571003F4C41 /* RecipeWebView.swift */; };
+		7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E602869562C003F4C41 /* SavedRecipe.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* Location.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -18,7 +21,18 @@
 		7A6E40B92851203300BEBB1C /* iDonateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E40B82851203300BEBB1C /* iDonateUITestsLaunchTests.swift */; };
 		7A6E40C62851206A00BEBB1C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C52851206A00BEBB1C /* .gitignore */; };
 		7A6E40C82851209900BEBB1C /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E40C72851209900BEBB1C /* .gitattributes */; };
+		7A6E40CA285122A600BEBB1C /* FoodRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */; };
+		7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41012856C5A600BEBB1C /* FoodData.swift */; };
+		7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41052856E8A800BEBB1C /* Recipe.swift */; };
+		7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */; };
 		7A8209D12855B3BD00B4352D /* reviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8209D02855B3BD00B4352D /* reviewData.swift */; };
+		7AC8977D2851230200D4EE55 /* inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8977C2851230200D4EE55 /* inventory.swift */; };
+		7AC897C3286042CE00D4EE55 /* locationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897C2286042CE00D4EE55 /* locationView.swift */; };
+		7AC897CB2861015000D4EE55 /* inventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC897CA2861015000D4EE55 /* inventoryView.swift */; };
+		7AF1324E286CB70F00EFDF49 /* Donation_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324A286CB70F00EFDF49 /* Donation_Data.swift */; };
+		7AF1324F286CB70F00EFDF49 /* Donation_Location_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324B286CB70F00EFDF49 /* Donation_Location_Detail.swift */; };
+		7AF13250286CB70F00EFDF49 /* Donation_InputDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324C286CB70F00EFDF49 /* Donation_InputDonate.swift */; };
+		7AF13251286CB70F00EFDF49 /* Donation_Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324D286CB70F00EFDF49 /* Donation_Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +55,9 @@
 /* Begin PBXFileReference section */
 		7A19971A286967880065F21E /* ReviewApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewApi.swift; sourceTree = "<group>"; };
 		7A1B849E28512A9900803B93 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		7A5C84E0286CBCFF00C8E7B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A641E5C2868F571003F4C41 /* RecipeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeWebView.swift; sourceTree = "<group>"; };
+		7A641E602869562C003F4C41 /* SavedRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecipe.swift; sourceTree = "<group>"; };
 		7A6E40982851203000BEBB1C /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6E409B2851203000BEBB1C /* iDonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateApp.swift; sourceTree = "<group>"; };
 		7A6E409D2851203000BEBB1C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -53,7 +70,18 @@
 		7A6E40B82851203300BEBB1C /* iDonateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A6E40C52851206A00BEBB1C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A6E40C72851209900BEBB1C /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecommendations.swift; sourceTree = "<group>"; };
+		7A6E41012856C5A600BEBB1C /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		7A6E41052856E8A800BEBB1C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationDisplay.swift; sourceTree = "<group>"; };
 		7A8209D02855B3BD00B4352D /* reviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewData.swift; sourceTree = "<group>"; };
+		7AC8977C2851230200D4EE55 /* inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventory.swift; sourceTree = "<group>"; };
+		7AC897C2286042CE00D4EE55 /* locationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationView.swift; sourceTree = "<group>"; };
+		7AC897CA2861015000D4EE55 /* inventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryView.swift; sourceTree = "<group>"; };
+		7AF1324A286CB70F00EFDF49 /* Donation_Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_Data.swift; sourceTree = "<group>"; };
+		7AF1324B286CB70F00EFDF49 /* Donation_Location_Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_Location_Detail.swift; sourceTree = "<group>"; };
+		7AF1324C286CB70F00EFDF49 /* Donation_InputDonate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_InputDonate.swift; sourceTree = "<group>"; };
+		7AF1324D286CB70F00EFDF49 /* Donation_Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +134,27 @@
 		7A6E409A2851203000BEBB1C /* iDonate */ = {
 			isa = PBXGroup;
 			children = (
+				7AF1324A286CB70F00EFDF49 /* Donation_Data.swift */,
+				7AF1324C286CB70F00EFDF49 /* Donation_InputDonate.swift */,
+				7AF1324B286CB70F00EFDF49 /* Donation_Location_Detail.swift */,
+				7AF1324D286CB70F00EFDF49 /* Donation_Locations.swift */,
 				7A6E409B2851203000BEBB1C /* iDonateApp.swift */,
-				7A6E409D2851203000BEBB1C /* Location.swift */,
 				7A1B849E28512A9900803B93 /* Review.swift */,
 				7A8209D02855B3BD00B4352D /* reviewData.swift */,
 				7A19971A286967880065F21E /* ReviewApi.swift */,
+				7AC8977C2851230200D4EE55 /* inventory.swift */,
+				7A6E409D2851203000BEBB1C /* Location.swift */,
+				7AC897CA2861015000D4EE55 /* inventoryView.swift */,
+				7AC897C2286042CE00D4EE55 /* locationView.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
+				7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */,
+				7A6E41012856C5A600BEBB1C /* FoodData.swift */,
+				7A6E41052856E8A800BEBB1C /* Recipe.swift */,
+				7A641E602869562C003F4C41 /* SavedRecipe.swift */,
+				7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */,
+				7A641E5C2868F571003F4C41 /* RecipeWebView.swift */,
+				7A5C84E0286CBCFF00C8E7B6 /* ContentView.swift */,
 			);
 			path = iDonate;
 			sourceTree = "<group>";
@@ -276,9 +318,25 @@
 			files = (
 				7A6E409E2851203000BEBB1C /* Location.swift in Sources */,
 				7A19971B286967880065F21E /* ReviewApi.swift in Sources */,
+				7A5C84E1286CBCFF00C8E7B6 /* ContentView.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
 				7A1B849F28512A9900803B93 /* Review.swift in Sources */,
 				7A8209D12855B3BD00B4352D /* reviewData.swift in Sources */,
+				7AC8977D2851230200D4EE55 /* inventory.swift in Sources */,
+				7A6E40CA285122A600BEBB1C /* FoodRecommendations.swift in Sources */,
+				7A6E409E2851203000BEBB1C /* Location.swift in Sources */,
+				7AF13251286CB70F00EFDF49 /* Donation_Locations.swift in Sources */,
+				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
+				7AC897C3286042CE00D4EE55 /* locationView.swift in Sources */,
+				7AC897CB2861015000D4EE55 /* inventoryView.swift in Sources */,
+				7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */,
+				7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */,
+				7AF1324E286CB70F00EFDF49 /* Donation_Data.swift in Sources */,
+				7AF13250286CB70F00EFDF49 /* Donation_InputDonate.swift in Sources */,
+				7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */,
+				7AF1324F286CB70F00EFDF49 /* Donation_Location_Detail.swift in Sources */,
+				7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */,
+				7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iDonate/Preview Content\"";
-				DEVELOPMENT_TEAM = SGXU9J9LR5;
+				DEVELOPMENT_TEAM = 2K9XV27K36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,7 +503,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,7 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iDonate/Preview Content\"";
-				DEVELOPMENT_TEAM = SGXU9J9LR5;
+				DEVELOPMENT_TEAM = 2K9XV27K36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -475,7 +533,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
