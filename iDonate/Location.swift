@@ -33,7 +33,7 @@ struct Location: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Location_Previews: PreviewProvider {
     static var previews: some View {
         Location()
     }
