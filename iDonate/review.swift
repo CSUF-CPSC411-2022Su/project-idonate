@@ -8,72 +8,58 @@
 import SwiftUI
 
 struct review: View {
-    @State var review: String = ""
+    @AppStorage("review") var review: String = ""
     @StateObject var manager = reviewManager()
     @StateObject var finder = LocationFinder()
-    @StateObject var reviewDisplay = WriteReviews()
-    @SceneStorage("text") var feedback: String?
-    
+    @AppStorage("text") var feedback: String = ""
+
     var locations: donatingPlace
-    
+
     var body: some View {
-        NavigationView {
-            VStack {
-                Text(locations.location)
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .frame(height: 30)
-                    .onAppear {
-                        finder.find(locations.location)
-                    }
-                Text(locations.address)
-                    .fontWeight(.regular)
-                    .font(.subheadline)
-                    .padding()
-                Image(uiImage: finder.image)
-                    .padding()
-                
-                HStack {
-                    TextField("Write a review...", text: $review)
-                        .frame(width: 250)
-                    Button(action: {
-                        if review != "" {
-                            reviewDisplay.addSearchString(review)
-                        }
-                    }) {
-                        Text("Save")
-                    }
+        VStack {
+            Text(locations.location)
+                .font(.title2)
+                .fontWeight(.semibold)
+                .frame(height: 30)
+                .onAppear {
+                    finder.find(locations.location)
                 }
-                List(reviewDisplay.searchStrings, id: \.self) {
-                    storedSearchString in
-                    Text(storedSearchString)
-                }
-                
-                /* ForEach(manager.reviews){
-                         text in
-                      HStack{
-                          TextField("Write a review...", text: $review)
-                              .frame(width: 250)
-                          Button(action: {
-                              if review != ""{
-                                  reviewDisplay.addSearchString(review)
-                              }
-                          }) {
-                              Text("Save")
-                          }
-                      }
-                      List(reviewDisplay.searchStrings, id: \.self) {
-                          storedSearchString in
-                          Text(storedSearchString)
-                      }
+            Text(locations.address)
+                .fontWeight(.regular)
+                .font(.subheadline)
+                .padding()
+            Image(uiImage: finder.image)
+                .padding()
+            HStack {
+                TextField("Write a review...", text: $review)
+                    .frame(width: 250)
+
+                Button {
+                    if feedback != "" && review != ""{
+                        manager.reviews.append(listOfReviews(feedback: review))
+                    }
                     
-                 }*/
+                } label: {
+                    Text("Save")
+                        .frame(width: 50)
+                }
             }
-            Spacer()
+            Text("Reviews")
+                .fontWeight(.semibold)
+                .padding(2)
+                .frame(alignment: .leading)
+            List {
+                ForEach(manager.reviews) {
+                    text in
+                    HStack {
+                        Text(text.feedback)
+                    }
+                }
+            }
             
         }.environmentObject(manager)
-            // .navigationBarTitle(Text("Reviews"), displayMode: .inline)
-            .navigationTitle("Reviews")
+
+        Spacer()
     }
 }
 
