@@ -13,17 +13,17 @@ struct ContentView: View {
         TabView {
             inventoryView()
                 .tabItem {
-                    Image(systemName: "plus")
+                    Image(systemName: "list.bullet.rectangle")
                     Text("Inventory")
                 }
             AddDonation()
                 .tabItem {
-                    Image(systemName: "plus")
+                    Image(systemName: "paperplane")
                     Text("Donation")
                 }
             Location()
                 .tabItem {
-                    Image(systemName: "plus")
+                    Image(systemName: "pencil.and.ellipsis.rectangle")
                     Text("Review")
                 }
             RecommendationDisplay()
