@@ -11,10 +11,13 @@ var locations: [donatingPlace] = reviewList.list
 
 struct Location: View {
     var body: some View {
+        //creates a navigation view for the list of locations
         NavigationView {
             List(locations, id: \.id) { data in
+                // Links each locations of this page to the review page.
                 NavigationLink(destination: review(locations: data), label: {
                     VStack(alignment: .leading, spacing: 5) {
+                        // Prints location name and address
                         Text(data.location)
                             .fontWeight(.semibold)
                         Text(data.address)
@@ -24,7 +27,7 @@ struct Location: View {
                 })
             }
             .navigationTitle("Locations")
-
+        // This defaults app too dark screen
         }.preferredColorScheme(.dark)
     }
 }
