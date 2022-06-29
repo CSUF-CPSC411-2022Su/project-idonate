@@ -11,9 +11,9 @@ struct donatingPlace: Identifiable {
     var id = UUID()
     var location: String
     var address: String
-
 }
 
+//Below is the list of objects of donatingPlace with parameters location and address.
 enum reviewList {
     static let list = [
         donatingPlace(location: "Friendly Center", address: "147 W Rose Ave, Orange, CA 92867"),
