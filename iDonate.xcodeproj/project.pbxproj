@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E5C2868F571003F4C41 /* RecipeWebView.swift */; };
 		7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A641E602869562C003F4C41 /* SavedRecipe.swift */; };
-		7A23AFDC285831D3000B5F0E /* Donation_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AFDB285831D3000B5F0E /* Donation_Data.swift */; };
 		7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409B2851203000BEBB1C /* iDonateApp.swift */; };
 		7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E409D2851203000BEBB1C /* ContentView.swift */; };
 		7A6E40A02851203200BEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E409F2851203200BEBB1C /* Assets.xcassets */; };
@@ -23,6 +22,10 @@
 		7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41012856C5A600BEBB1C /* FoodData.swift */; };
 		7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E41052856E8A800BEBB1C /* Recipe.swift */; };
 		7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */; };
+		7AF1324E286CB70F00EFDF49 /* Donation_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324A286CB70F00EFDF49 /* Donation_Data.swift */; };
+		7AF1324F286CB70F00EFDF49 /* Donation_Location_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324B286CB70F00EFDF49 /* Donation_Location_Detail.swift */; };
+		7AF13250286CB70F00EFDF49 /* Donation_InputDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324C286CB70F00EFDF49 /* Donation_InputDonate.swift */; };
+		7AF13251286CB70F00EFDF49 /* Donation_Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1324D286CB70F00EFDF49 /* Donation_Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,10 @@
 		7A6E41012856C5A600BEBB1C /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 		7A6E41052856E8A800BEBB1C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		7A6E4107285A606300BEBB1C /* RecommendationDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationDisplay.swift; sourceTree = "<group>"; };
+		7AF1324A286CB70F00EFDF49 /* Donation_Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_Data.swift; sourceTree = "<group>"; };
+		7AF1324B286CB70F00EFDF49 /* Donation_Location_Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_Location_Detail.swift; sourceTree = "<group>"; };
+		7AF1324C286CB70F00EFDF49 /* Donation_InputDonate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_InputDonate.swift; sourceTree = "<group>"; };
+		7AF1324D286CB70F00EFDF49 /* Donation_Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donation_Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +120,12 @@
 		7A6E409A2851203000BEBB1C /* iDonate */ = {
 			isa = PBXGroup;
 			children = (
+				7AF1324A286CB70F00EFDF49 /* Donation_Data.swift */,
+				7AF1324C286CB70F00EFDF49 /* Donation_InputDonate.swift */,
+				7AF1324B286CB70F00EFDF49 /* Donation_Location_Detail.swift */,
+				7AF1324D286CB70F00EFDF49 /* Donation_Locations.swift */,
 				7A6E409B2851203000BEBB1C /* iDonateApp.swift */,
 				7A6E409D2851203000BEBB1C /* ContentView.swift */,
-				7A23AFDB285831D3000B5F0E /* Donation_Data.swift */,
-				7A9B397C286A2A8200F84FED /* Donation_InputDonate.swift */,
-				7A86635E28618AE7001E8B05 /* Donation_Locations.swift */,
-				7ACC062C285F969E00A962AA /* Donation_Location_Detail.swift */,
 				7A6E409F2851203200BEBB1C /* Assets.xcassets */,
 				7A6E40A12851203200BEBB1C /* Preview Content */,
 				7A6E40C9285122A600BEBB1C /* FoodRecommendations.swift */,
@@ -290,10 +297,14 @@
 			files = (
 				7A6E40CA285122A600BEBB1C /* FoodRecommendations.swift in Sources */,
 				7A6E409E2851203000BEBB1C /* ContentView.swift in Sources */,
+				7AF13251286CB70F00EFDF49 /* Donation_Locations.swift in Sources */,
 				7A6E409C2851203000BEBB1C /* iDonateApp.swift in Sources */,
 				7A6E41022856C5A700BEBB1C /* FoodData.swift in Sources */,
 				7A6E41062856E8A800BEBB1C /* Recipe.swift in Sources */,
+				7AF1324E286CB70F00EFDF49 /* Donation_Data.swift in Sources */,
+				7AF13250286CB70F00EFDF49 /* Donation_InputDonate.swift in Sources */,
 				7A641E5D2868F571003F4C41 /* RecipeWebView.swift in Sources */,
+				7AF1324F286CB70F00EFDF49 /* Donation_Location_Detail.swift in Sources */,
 				7A6E4108285A606300BEBB1C /* RecommendationDisplay.swift in Sources */,
 				7A641E612869562C003F4C41 /* SavedRecipe.swift in Sources */,
 			);

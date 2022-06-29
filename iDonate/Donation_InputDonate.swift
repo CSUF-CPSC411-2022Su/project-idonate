@@ -9,7 +9,6 @@ import Combine
 import Foundation
 import SwiftUI
 
-var foods: [FoodData] = foodList.list
 
 struct AddDonation: View {
     @ObservedObject var donationList = DonationList()
