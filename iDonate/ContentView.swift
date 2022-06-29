@@ -16,6 +16,11 @@ struct ContentView: View {
                     Image(systemName: "magnifyingglass")
                     Text("Recipe")
                 }
+            AddDonation()
+                .tabItem {
+                    Image(systemName: "plus")
+                    Text("Donation")
+                }
         }
     }
 }

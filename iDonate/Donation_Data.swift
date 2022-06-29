@@ -17,20 +17,20 @@ class DonationList: ObservableObject {
     @Published var donations = [Donation]()
 }
 
-struct FoodData: Identifiable {
-    var id = UUID()
-    var foodName: String
-}
+//struct FoodData: Identifiable {
+//    var id = UUID()
+//    var foodName: String
+//}
 
-enum foodList {
-//    @Published var foods:[FoodData] = ["Apple"]
-    static let list = [
-        FoodData(foodName: "Apple"),
-        FoodData(foodName: "Chicken"),
-        FoodData(foodName: "Banana"),
-        FoodData(foodName: "Bread"),
-    ]
-}
+//enum foodList {
+////    @Published var foods:[FoodData] = ["Apple"]
+//    static let list = [
+//        FoodData(foodName: "Apple"),
+//        FoodData(foodName: "Chicken"),
+//        FoodData(foodName: "Banana"),
+//        FoodData(foodName: "Bread"),
+//    ]
+//}
 
 struct Data: Identifiable {
     var id = UUID()
